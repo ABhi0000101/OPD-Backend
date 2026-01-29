@@ -1,0 +1,18 @@
+{
+  "name": "hospital-opd-engine",
+  "version": "1.0.0",
+  "description": "Hospital OPD Token Allocation System",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "simulate": "node simulation.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
